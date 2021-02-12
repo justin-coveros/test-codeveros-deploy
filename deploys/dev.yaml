@@ -1,9 +1,0 @@
-  
-codeveros-ui:
-  ingress:
-    enabled: true
-    host: codeveros.k8s.local
-codeveros-gateway:
-  ingress:
-    enabled: true
-    host: codeveros.k8s.local
