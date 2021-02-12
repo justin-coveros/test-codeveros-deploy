@@ -1,0 +1,9 @@
+apiVersion: v2
+name: codeveros
+description: Codeveros deployment
+type: application
+version: 0.1.0
+dependencies:
+  - name: codeveros
+    version: 0.3.0
+    repository: https://coveros.github.io/codeveros
