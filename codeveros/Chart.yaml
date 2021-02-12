@@ -19,8 +19,8 @@ dependencies:
     version: 0.5.0
     repository: https://coveros.github.io/codeveros
   - name: codeveros-gateway
-    version: 0.5.0
+    version: 0.6.0
     repository: https://coveros.github.io/codeveros
   - name: codeveros-ui
-    version: 0.7.0
+    version: 0.8.0
     repository: https://coveros.github.io/codeveros
