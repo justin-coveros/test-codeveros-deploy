@@ -2,7 +2,13 @@ codeveros-ui:
   ingress:
     enabled: true
     host: codeveros.k8s.local
+    tlsSecretName: codeveros-secret
+    annotations:
+      cert-manager.io/cluster-issuer: my-ca-issuer
 codeveros-gateway:
   ingress:
     enabled: true
     host: codeveros.k8s.local
+    tlsSecretName: codeveros-secret
+    annotations:
+      cert-manager.io/cluster-issuer: my-ca-issuer
